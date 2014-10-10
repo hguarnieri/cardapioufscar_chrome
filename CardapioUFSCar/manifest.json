@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Cardápio UFSCar",
+  "description": "Extensão que exibe o cardápio do dia da Federal",
+  "version": "1.0",
+
+  "permissions": [
+    "http://www2.ufscar.br/"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "page.html"
+  }
+}
